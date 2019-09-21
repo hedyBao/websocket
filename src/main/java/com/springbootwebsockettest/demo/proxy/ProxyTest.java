@@ -28,6 +28,8 @@ public class ProxyTest {
         public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
             if(method.getName().equals("say")){
                 System.out.println("haha 被代理了很爽");
+                System.out.println("122");
+                System.out.println("0gt");
             }
             return null;
         }
